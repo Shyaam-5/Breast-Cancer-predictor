@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 An advanced, multi-page web application that leverages a pre-trained Scikit-learn model for breast cancer risk assessment and integrates Google's Gemini Pro model to provide users with actionable, AI-generated recommendations.
-
+Streamlit : https://breast-cancer-predictor-bd9ztwavwmztvkz5zurjkq.streamlit.app/
 This project serves as a comprehensive demonstration of building end-to-end machine learning applications, from data input and model inference to interactive visualization and a generative AI-powered feedback loop.
 
 ---
@@ -18,7 +18,6 @@ This project serves as a comprehensive demonstration of building end-to-end mach
 - [✨ Key Features](#-key-features)
 - [🏛️ Architecture & Technology Stack](#️-architecture--technology-stack)
 - [🔬 The Dataset & Model](#-the-dataset--model)
-- [🖼️ Screenshots](#️-screenshots)
 - [🚀 Local Development Setup](#-local-development-setup)
 - [📂 Project Structure](#-project-structure)
 - [🤝 Contributing](#-contributing)
@@ -68,7 +67,7 @@ This application is built with a modern Python stack, integrating machine learni
   - **[Joblib](https://joblib.readthedocs.io/):** For serializing and deserializing the Scikit-learn model file (`.joblib`).
 
 - **Generative AI Integration:**
-  - **[Google Generative AI](https://ai.google.com/):** Provides the Gemini Pro model for generating human-like recommendations.
+  - **[Google Generative AI](https://ai.google.com/):** Provides the Gemini model for generating human-like recommendations.
   - **[LangChain](https://www.langchain.com/):** Acts as the orchestration framework to connect to the Gemini API, manage prompts, and parse the output seamlessly.
 
 - **Data Visualization:**
@@ -91,20 +90,6 @@ The model was trained on the **[Wisconsin Breast Cancer (Diagnostic) dataset](ht
 The application uses a pre-trained **Logistic Regression** model.
 - **File:** `logistic_regression_model.joblib`
 - **Rationale:** Logistic Regression is a robust and interpretable algorithm for binary classification tasks, making it an excellent choice for this problem. It provides not only a classification (Malignant/Benign) but also a probability score, which is crucial for the risk assessment feature.
-
----
-
-## 🖼️ Screenshots
-
-*(This is a great place to add visuals of your running application)*
-
-| Patient Input Page | Prediction & Visualization |
-| :----------------: | :------------------------: |
-|   *(Add Image Here)* |   *(Add Image Here)* |
-
-| AI Recommendations | History & Reporting |
-| :----------------: | :-----------------: |
-|    *(Add Image Here)* |     *(Add Image Here)* |
 
 ---
 
