@@ -7,9 +7,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 An advanced, multi-page web application that leverages a pre-trained Scikit-learn model for breast cancer risk assessment and integrates Google's Gemini Pro model to provide users with actionable, AI-generated recommendations.
-Streamlit : https://breast-cancer-predictor-bd9ztwavwmztvkz5zurjkq.streamlit.app/
-This project serves as a comprehensive demonstration of building end-to-end machine learning applications, from data input and model inference to interactive visualization and a generative AI-powered feedback loop.
 
+This project serves as a comprehensive demonstration of building end-to-end machine learning applications, from data input and model inference to interactive visualization and a generative AI-powered feedback loop.
+Streamlit : https://breast-cancer-predictor-bd9ztwavwmztvkz5zurjkq.streamlit.app/
 ---
 
 ## 📋 Table of Contents
