@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+google-generativeai
+joblib
+langchain>=0.1.0
+langchain-google-genai>=0.0.5
